@@ -38,7 +38,7 @@ export default class BlueParticles {
       const z = this.center.z + distance * Math.sin(angle) + offsetZ;
       const y = this.center.y
       const particle = new THREE.Mesh(
-        new THREE.SphereGeometry(0.2),
+        new THREE.SphereGeometry(0.1),
         new THREE.MeshBasicMaterial({ color: 0xADD8E6 })
       );
   
@@ -56,7 +56,7 @@ export default class BlueParticles {
 
     for (let i = 0; i < this.numParticles / 2; i++) {
       const particle = new THREE.Mesh(
-        new THREE.SphereGeometry(0.3),
+        new THREE.SphereGeometry(0.2),
         new THREE.MeshBasicMaterial({ color: 0xADD8E6 })
       );
 

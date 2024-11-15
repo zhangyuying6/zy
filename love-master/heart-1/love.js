@@ -28,7 +28,7 @@ function createTextCanvas(text, fontSize, color, xPos, yPos) {
 }
 
 // 创建文字纹理
-const canvas = createTextCanvas('略略略', 90, '#ff6699', 256, 100); 
+const canvas = createTextCanvas('梅志豪大傻蛋', 80, '#ff6699', 256, 100); 
 const texture = new THREE.CanvasTexture(canvas);
 
 // 使用纹理创建材质

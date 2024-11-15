@@ -56,7 +56,7 @@ export default class BlueParticles {
 
     for (let i = 0; i < this.numParticles / 2; i++) {
       const particle = new THREE.Mesh(
-        new THREE.SphereGeometry(0.1),
+        new THREE.SphereGeometry(0.2),
         new THREE.MeshBasicMaterial({ color: 0xADD8E6 })
       );
 
